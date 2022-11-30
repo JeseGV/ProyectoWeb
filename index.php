@@ -26,23 +26,9 @@
             </h2>
           </div>
           <div class="texto">
-            <p>
-              Muse es una banda de rock británica formada en 1994, en
-              Teignmouth, Devon. Desde su formación, sus integrantes son: Matt
-              Bellamy (voz, guitarra, teclados), Christopher Wolstenholme (bajo,
-              coros) y Dominic Howard (batería).<br /><br />
-              Tras el lanzamiento de Black Holes and Revelations, Morgan
-              Nicholls comenzó a colaborar con la banda durante las
-              presentaciones en vivo, haciéndose cargo de teclados, samples, de
-              algunos coros, rara vez del bajo y últimamente de la segunda
-              guitarra.​ La banda es conocida por sus extravagantes espectáculos
-              en vivo, por fusionar géneros musicales como el rock alternativo,
-              rock espacial, rock progresivo, rock sinfónico y electrónica,​
-              además por los atípicos intereses de Bellamy en la conspiración
-              global, la revolución, la astrofísica, vida extraterrestre, los
-              fantasmas, la teología y el apocalipsis; temas que se ven
-              reflejados en sus letras.
-            </p>
+          <table align="center">
+			<tr><th >Id Contacto</th><th>Nombre</th><th>Numero</th></tr>
+            </table>    
           </div>
         </section>
         </div>

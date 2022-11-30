@@ -12,22 +12,28 @@
     <div>
       <aside>
         <ul>
-          <li><a href="index.html">Contactos</a></li>
-          <li><a href="#a1">Agregar</a></li>
-          <li><a href="#a2">Eliminar</a></li>
-          <li><a href="#a3">Editar</a></li>
+          <li><a href="index.php">Contactos</a></li>
+          <li><a href="agregar.php">Agregar</a></li>
+          <li><a href="eliminar.php">Eliminar</a></li>
+          <li><a href="editar.php">Editar</a></li>
         </ul>
       </aside>
       <div class="contenido">
         <section>
           <div class="titulo">
-            <h2>
-              <a name="a1">Muse</a>
-            </h2>
           </div>
           <div class="texto">
           <table align="center">
 			<tr><th >Id Contacto</th><th>Nombre</th><th>Numero</th></tr>
+                <?php
+					$mysqli = new mysqli('localhost', 'root', '', 'contactos');
+					$mysqli->set_charset("utf8");
+					$query = $mysqli->query("SELECT * FROM personas");
+					while($dat = $query -> fetch_object()){
+						echo "<tr><td>".$dat->id_Contacto."</td><td>".$dat->Nombre.
+						"</td><td>".$dat->Número."</td></tr>";
+					}
+			    ?>
             </table>    
           </div>
         </section>

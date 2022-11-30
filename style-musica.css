@@ -20,8 +20,8 @@ section {
   border-radius: 10px;
   background-color: ghostwhite;
   position: relative;
-
-  left: 19%;
+  align-content: center;
+  left:19%;
 }
 .titulo {
   position: relative;

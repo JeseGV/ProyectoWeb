@@ -46,7 +46,7 @@ section {
 }
 
 a:hover {
-  background-color: #000;
+  background-color: rgb(29, 28, 28);
   color: whitesmoke;
   text-decoration: none;
   border-radius: 15px;

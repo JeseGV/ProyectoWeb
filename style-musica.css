@@ -20,7 +20,7 @@ section {
   border-radius: 10px;
   background-color: ghostwhite;
   position: relative;
-  width: 30%;
+  align-content: center;
   left: 3%;
 }
 .titulo {

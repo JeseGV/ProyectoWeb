@@ -28,7 +28,7 @@
 			    $mysqli->set_charset("utf8");
 		    	$query = $mysqli->query("SELECT * FROM personas WHERE id_Contacto='".$id."'");
 		    	$dat = $query->fetch_object();
-		    	echo "<tr><td>Matricula</td><td>
+		    	echo "<tr><td>Contacto</td><td>
 				<input name='idcontacto' type='text' value='".$dat->id_Contacto."' readonly></td></tr> 
 				<tr><td>Nombre</td><td><input type='text' name='nombre' value='".$dat->Nombre."'></td></tr>
 				<tr><td>Teléfono</td><td><input type='tel' name='telefono' value='".$dat->Número."'></td></tr>

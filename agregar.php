@@ -9,7 +9,6 @@
     <title>Contactos</title>
   </head>
   <body class="infogra">
-    <div>
       <aside>
         <ul>
           <li><h2><a href="index.php">Contactos</a></h2></li>
@@ -18,7 +17,7 @@
           <li><h2><a href="editar.php">Editar</a></h2></li>
         </ul>
       </aside>
-      <div class="contenido">
+      
         <div class="texto">
             <section>
                 <form action="agregarsql.php" method="POST">
@@ -30,7 +29,6 @@
                 </form>  
             </section>
         </div>
-        </div>
-    </div>
+        
   </body>
 </html>

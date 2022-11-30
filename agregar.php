@@ -22,7 +22,7 @@
         <div class="texto">
             <section>
                 <form action="agregarsql.php" method="POST">
-                    <table>
+                    <table align="center">
                     <tr><td>Nombre</td><td><input type="text" name="nombre"></td></tr>
 			        <tr><td>Número</td><td><input type="tel" name="telefono"></td></tr>
 			        <tr><td><input type="submit"></td><td><input type="reset"></td></tr>

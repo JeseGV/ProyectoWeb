@@ -12,10 +12,10 @@
     <div>
       <aside>
         <ul>
-          <li><a href="index.php">Contactos</a></li>
-          <li><a href="agregar.php">Agregar</a></li>
-          <li><a href="eliminar.php">Eliminar</a></li>
-          <li><a href="editar.php">Editar</a></li>
+          <li><h2><a href="index.php">Contactos</a></h2></li>
+          <li><h2><a href="agregar.php">Agregar</a></h2></li>
+          <li><h2><a href="eliminar.php">Eliminar</a></h2></li>
+          <li><h2><a href="editar.php">Editar</a></h2></li>
         </ul>
       </aside>
       <div class="contenido">

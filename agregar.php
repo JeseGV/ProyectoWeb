@@ -29,6 +29,8 @@
                 </form>  
             </section>
         </div>
-        
+    <marquee>
+		    <h2>INSTITUTO TECNOLÓGICO DE CHIHUAHUA II</h2>
+    </marquee>
   </body>
 </html>

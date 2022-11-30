@@ -14,7 +14,7 @@
         <ul>
           <li><h2><a href="index.php">Contactos</a></h2></li>
           <li><h2><a href="agregar.php">Agregar</a></h2></li>
-          <li><h2><a href="eliminar.php">Eliminar</a></h2></li>
+          <li><h2><a href="quitar.php">Eliminar</a></h2></li>
           <li><h2><a href="editar.php">Editar</a></h2></li>
         </ul>
       </aside>

@@ -31,7 +31,7 @@
 					$query = $mysqli->query("SELECT * FROM personas");
 					while($dat = $query -> fetch_object()){
 						echo "<tr><td>".$dat->id_Contacto."</td><td>".$dat->Nombre.
-						"</td><td>".$dat->Número."</td></tr>";
+						"</td><td>".$dat->Número."</td>
             <td><a class='eliminar' href='eliminar.php?id=".$dat->id_Contacto."'>Eliminar</a></td></tr>";
 					}
 			    ?>

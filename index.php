@@ -23,7 +23,7 @@
           <div class="titulo">
           </div>
           <div class="texto">
-          <table align="center">
+          <table>
 			<tr><th >Id Contacto</th><th>Nombre</th><th>Numero</th></tr>
                 <?php
 					$mysqli = new mysqli('localhost', 'root', '', 'contactos');

@@ -23,6 +23,13 @@ section {
   align-content: center;
   left:19%;
 }
+td{
+	background-color: #dee4db;
+  border-radius: 10%;
+}
+tr{
+	background-color: #3bec76;
+}
 
 .titulo {
   position: relative;

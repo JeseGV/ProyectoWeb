@@ -19,10 +19,10 @@
         </ul>
       </aside>
       <div class="contenido">
-        <section>
           <div class="titulo">
           </div>
           <div class="texto">
+          <section>
             <form action="agregarsql.php" method="POST">
                 <table>
                 <tr><td>Nombre</td><td><input type="text" name"nombre"></td></tr>
@@ -30,8 +30,8 @@
 			    <tr><td><input type="submit"></td><td><input type="reset"></td></tr>
                 </table>
             </form>   
-          </div>
         </section>
+        </div>
     </div>
   </body>
 </html>

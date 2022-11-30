@@ -4,26 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="style-musica.css" />
     <header align="center">
-      <h1 class="head"><tt>INFOGRAFIAS</tt></h1>
+      <h1 class="head"><tt>CONTACTOS</tt></h1>
     </header>
-    <title>INFOGRAFIAS</title>
+    <title>Contactos</title>
   </head>
   <body class="infogra">
     <div>
       <aside>
         <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="#a1">Muse</a></li>
-          <li><a href="#a2">twenty one pilots</a></li>
-          <li><a href="#a3">Gorillaz</a></li>
-          <li><a href="#a4"> imagine dragons</a></li>
-          <li><a href="#a5">Royale blood</a></li>
-          <li><a href="#a6">Michael Jackson</a></li>
-          <li><a href="#a7">Coldplay</a></li>
-          <li><a href="#a8">Lady Gaga</a></li>
-          <li><a href="#a9">The weeknd</a></li>
-          <li><a href="#a10">Bad bunny</a></li>
-          <li><a href="#a11">JBalvin</a></li>
+          <li><a href="index.html">Contactos</a></li>
+          <li><a href="#a1">Agregar</a></li>
+          <li><a href="#a2">Eliminar</a></li>
+          <li><a href="#a3">Editar</a></li>
         </ul>
       </aside>
       <div class="contenido">

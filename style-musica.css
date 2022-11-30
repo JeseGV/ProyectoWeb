@@ -1,0 +1,134 @@
+body {
+  background-color: #eee;
+}
+
+.head {
+  font-size: 4vw;
+}
+
+aside {
+  background-color:ghostwhite;
+  float: left;
+  position: relative;
+  width: 20%;
+  border-radius: 10px;
+  height: 10%;
+  opacity: 90%;
+}
+section {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: ghostwhite;
+  position: relative;
+  left: 3%;
+}
+.titulo {
+  position: relative;
+  text-align: center;
+  font-size: 3vw;
+}
+.contenido {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  height: 60%;
+}
+.texto {
+  position: relative;
+  left: 5%;
+  width: 90%;
+  font-size: 2vw;
+}
+
+.infogra {
+  background-color: #3bec76;
+}
+
+a:hover {
+  background-color: #000;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 6px 6px;
+}
+.formula {
+  background-color: #eee;
+}
+
+button {
+  background-color: transparent;
+  position: relative;
+  font-weight: bold;
+  color: #444;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  border: 2px solid #eee;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 1s ease;
+  box-shadow: 0.5rem 0.5rem 1rem #ccc, -0.5rem -0.5rem 1rem #fff;
+}
+button:hover {
+  box-shadow: 0.5rem 0.5rem 1rem #fff, -0.5rem -0.5rem 1rem #ccc;
+}
+
+button:active {
+  box-shadow: inset 2rem 2rem 1rem #ccc, inset -2rem -2rem 1rem #fff;
+}
+.titulo {
+  font-size: 4vw;
+}
+#genero {
+  font-size: 30px;
+  color: red;
+}
+#artistas {
+  font-style: italic;
+  font-size: 20px;
+  color: black;
+}
+a,
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+.contenido {
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  height: 60%;
+}
+#tabla {
+  border-color: black;
+}
+footer {
+  position: absolute;
+  bottom: 5%;
+  width: 90%;
+  height: 25%;
+  left: 5%;
+}
+.boton {
+  display: inline-block;
+}
+.espacio {
+  position: relative;
+  width: 20%;
+}
+.asies {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 6px 6px;
+}
+
+.inicio {
+  width: 40%;
+  left: -10%;
+  height: 60%;
+}
+.asideinicio {
+  background-color: transparent;
+}

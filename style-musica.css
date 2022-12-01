@@ -23,6 +23,13 @@ section {
   align-content: center;
   left:19%;
 }
+td{
+	background-color: #dee4db;
+  border-radius: 10%;
+}
+tr{
+	background-color: #3bec76;
+}
 
 .titulo {
   position: relative;
@@ -47,7 +54,7 @@ section {
 }
 
 a:hover {
-  background-color: rgb(29, 28, 28);
+  background-color: rgb(64, 62, 62);
   color: whitesmoke;
   text-decoration: none;
   border-radius: 15px;

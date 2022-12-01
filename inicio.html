@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Chef - Cocina facil</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+<div id="sip">
+    <nav class="navbar navbar-expand-lg bg-ligh">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/Logo Le Chef.png" alt="Logo" width="40"/>
+          Le Chef 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="inicio.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nosotros.html">NOSOTROS</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+  </nav>
+<div></div>
+  <!-- Carrusel hecho con bootstrap-->
+<section  style="margin-left: 5%; margin-right: 5%;">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/postres_inicio.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>La mejor comida</h5>
+          <p>Buena comida buenos postres</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/comida_inicio.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Disponible a tu servicio</h5>
+          <p>Simepre listos para atenderte</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/saludable_inicio.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Te esperamos!!</h5>
+          <p>Prueba nuestros platillos</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<br><h2 id="RP">Platos populares</h2>
+<section class="container-fluid mt-3 mb-3">
+  <div class="row gy-3">
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+          src="img/lasagna.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5>Lasagna clásica</h5>
+          <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(1)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 150$</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+          src="img/tiramisu.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5>Tiramisú</h5>
+          <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(2)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 70$</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+          src="img/suadero.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5>Costra de queso con suadero</h5>
+          <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(3)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 120$</a>
+        </div>
+      </div>
+    </div>
+
+    
+</div>
+</section>
+
+
+<br><h2 id="RP">Platos nuevos</h2>
+<section class="container-fluid mt-3 mb-3">
+  <div class="row gy-3">
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+              src="img/crostini.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>Crostini de Salmon</h5>
+              <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(4)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 150$</a>
+            </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+          src="img/pay.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5>Pay con relleno de zarzamora</h5>
+          <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(5)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 60$</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+          src="img/cacerola.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5>Cacerola de pollo a la jardinera</h5>
+          <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(6)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 120$</a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="col-xl-3 col-lg-4 col-sm-6">
+      <div class="card">
+        <img
+          src="img/salmorejo.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5>Salmorejo con jamón</h5>
+          <a tabindex="0" class="btn btn-lg btn-danger" onclick="pedido(7)" role="button" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-title="Dismissible popover" data-bs-content="And here's some amazing content. It's very engaging. Right?">Pedir 100$</a>
+        </div>
+      </div>
+    </div>
+   
+</div>
+</section>
+<footer class="footer bg-dark py-3">
+  <div class="container">
+    <span class="text-light" >
+      Le Chef 2022. Todos los derechos reservados.
+      </span>
+  </div>
+</footer>
+</div>
+
+<section style="margin: 5% 30%;">
+<div id ="generar"></div></section>
+
+<script src = "scr.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

@@ -11,6 +11,7 @@
   <body class="infogra">
       <aside>
         <ul>
+        <li><h2><a href="inicio.html">Inicio</a></h2></li>
           <li><h2><a href="index.php">Contactos</a></h2></li>
           <li><h2><a href="agregar.php">Agregar</a></h2></li>
           <li><h2><a href="quitar.php">Eliminar</a></h2></li>
